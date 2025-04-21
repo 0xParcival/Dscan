@@ -19,7 +19,13 @@ pip install -r requirements.txt
 ```bash
 OPENAI_API_KEY=your_api_key_here
 ```
+3. Add DOC PATH in extraction.py,chunking.py,embedding.py
 
+```bash
+result = converter.convert("path of the doc")
+```
+
+result
 ### Running the Example
 
 Execute the files in order to build and query the document database:
