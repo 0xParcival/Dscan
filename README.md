@@ -14,7 +14,7 @@ The whole system runs locally on standard computers and is designed to be extens
 pip install -r requirements.txt
 ```
 
-2. Set up your environment variables by creating a `.env` file:
+2. Set up your environment variables by add OpenAI API key in a `.env` file:
 
 ```bash
 OPENAI_API_KEY=your_api_key_here
